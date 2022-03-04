@@ -108,14 +108,14 @@ To build the project:
     npm run dev # This runs npm link to aid local development.
     # Note: the previous command may require sudo in some environments.
     # The modules are now working. We can build now:
-    grunt
+    npx grunt
     # After building, a folder will be generated:
     cd .. # Return to project root.
     ls omega-chromium-extension/build/
     # The folder above can be loaded as an unpacked extension in Chromium now.
 
-To enable `grunt watch`, run `grunt watch` once in the `omega-build` directory.
-This will effectively run `grunt watch` in every module in this project.
+To enable `npx grunt watch`, run `npx grunt watch` once in the `omega-build` directory. This will effectively
+run `npx grunt watch` in every module in this project.
 
 License
 -------
